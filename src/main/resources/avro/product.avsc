@@ -1,0 +1,26 @@
+{
+	"namespace": "org.nbk.demo.kafka.avro.model",
+	"type": "record",
+	"name": "Product",
+	"fields": [{
+			"name": "productId",
+			"type": "string"
+		},
+		{
+			"name": "productName",
+			"type": "string"
+		},
+		{
+			"name": "productType",
+			"type": "string"
+		},
+		{
+			"name": "productDescription",
+			"type": "string"
+		},
+		{
+			"name": "productShortDesc",
+			"type": "string"
+		}
+	]
+}
